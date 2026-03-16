@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ Análisis de Datos Energéticos | Talento Tech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Estilos Globales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        header {
+            background: linear-gradient(135deg, #1f4037 0%, #99f2c8 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        .badges {
+            margin-top: 20px;
+        }
+
+        .badges img {
+            margin: 0 5px;
+        }
+
+        /* Secciones Principales */
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #99f2c8;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #1f4037;
+        }
+
+        /* Características */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-item {
+            background-color: #fdfdfd;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature-item i {
+            font-size: 2em;
+            color: #1f4037;
+            margin-bottom: 10px;
+        }
+
+        /* Dataset Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #1f4037;
+            color: white;
+        }
+
+        /* Equipo */
+        .team-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .team-list li {
+            background-color: #f4f7f6;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .team-list i {
+            margin-right: 15px;
+            font-size: 1.2em;
+            color: #1f4037;
+        }
+
+        /* Botón de Acción (Call to Action) */
+        .cta-button {
+            display: inline-block;
+            background-color: #1f4037;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .cta-button:hover {
+            background-color: #99f2c8;
+            color: #1f4037;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #1f4037;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>⚡ Análisis de Datos Energéticos</h1>
+        <p>Talento Tech - Proyecto de Curso</p>
+        <div class="badges">
+            <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python"></a>
+            <a href="https://streamlit.io/" target="_blank"><img src="https://img.shields.io/badge/Streamlit-1.31.0-red.svg" alt="Streamlit"></a>
+            <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-2.1.4-green.svg" alt="Pandas"></a>
+            <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Seaborn-0.13.1-orange.svg" alt="Seaborn"></a>
+            <a href="LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+        </div>
+        <a href="#instalacion" class="cta-button">Empezar Ahora <i class="fas fa-rocket"></i></a>
+    </header>
+
+    <section id="descripcion">
+        <h2>📋 Descripción</h2>
+        <p>Esta aplicación interactiva de análisis de datos energéticos ha sido desarrollada como parte del curso de Análisis de Datos de Talento Tech. La herramienta te permite explorar y visualizar datos detallados de generación de energía renovable, incluyendo solar, eólica, hídrica y geotérmica, cubriendo el período desde 2020 hasta 2026. ¡Obtén perspectivas valiosas sobre la transición energética!</p>
+    </section>
+
+    <section id="equipo">
+        <h2>👥 Equipo de Desarrollo</h2>
+        <ul class="team-list">
+            <li><i class="fas fa-user"></i> Claudia Arroyave</li>
+            <li><i class="fas fa-user"></i> Michely Muñoz</li>
+            <li><i class="fas fa-user"></i> Jesus Garcia</li>
+            <li><i class="fas fa-user"></i> Luis Alfonso</li>
+            <li><i class="fas fa-user"></i> Maria Alejandra Colorado</li>
+        </ul>
+    </section>
+
+    <section id="caracteristicas">
+        <h2>🚀 Características Principales</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-file-alt"></i>
+                <p>Landing page informativa</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-chart-line"></i>
+                <p>Más de 30 visualizaciones interactivas</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-filter"></i>
+                <p>Filtros dinámicos por año, tipo de energía e inversión</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-palette"></i>
+                <p>Gráficos profesionales con Seaborn y Matplotlib</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-key"></i>
+                <p>KPIs clave en tiempo real</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-calculator"></i>
+                <p>Análisis estadístico avanzado</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-book"></i>
+                <p>Documentación integrada con iconos de ayuda</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-desktop"></i>
+                <p>Diseño profesional y totalmente responsive</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dataset">
+        <h2>📊 Dataset Detallado</h2>
+        <p>El dataset incluye las siguientes variables clave para un análisis exhaustivo:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Variable</th>
+                    <th>Descripción</th>
+                    <th>Unidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Año</td>
+                    <td>Período de generación</td>
+                    <td>Año</td>
+                </tr>
+                <tr>
+                    <td>Tipo_Energia</td>
+                    <td>Fuente energética analizada</td>
+                    <td>Categoría</td>
+                </tr>
+                <tr>
+                    <td>Generacion_GWh</td>
+                    <td>Energía total generada</td>
+                    <td>GWh</td>
+                </tr>
+                <tr>
+                    <td>Oferta_GWh</td>
+                    <td>Energía total disponible</td>
+                    <td>GWh</td>
+                </tr>
+                <tr>
+                    <td>Demanda_GWh</td>
+                    <td>Energía total requerida</td>
+                    <td>GWh</td>
+                </tr>
+                <tr>
+                    <td>Costo_MWh</td>
+                    <td>Costo unitario de generación</td>
+                    <td>USD/MWh</td>
+                </tr>
+                <tr>
+                    <td>Porcentaje_Cobertura</td>
+                    <td>Eficiencia de cobertura lograda</td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td>Inversion_USD_millones</td>
+                    <td>Capital total invertido</td>
+                    <td>Millones USD</td>
+                </tr>
+                <tr>
+                    <td>Emisiones_CO2_toneladas</td>
+                    <td>Impacto ambiental medido</td>
+                    <td>Toneladas</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="instalacion">
+        <h2>🛠️ Instalación y Uso</h2>
+        <p>Sigue estos sencillos pasos para empezar a explorar los datos energéticos:</p>
+        <ol>
+            <li>Clona el repositorio en tu máquina local:
+                <pre><code>git clone &lt;repository-url&gt;</code></pre>
+            </li>
+            <li>Navega al directorio del proyecto:
+                <pre><code>cd energy-analysis</code></pre>
+            </li>
+            <li>(Opcional pero recomendado) Crea y activa un entorno virtual:
+                <pre><code>python -m venv venv
+# En Windows:
+venv\Scripts\activate
+# En macOS/Linux:
+source venv/bin/activate</code></pre>
+            </li>
+            <li>Instala las dependencias necesarias:
+                <pre><code>pip install -r requirements.txt</code></pre>
+            </li>
+            <li>Ejecuta la aplicación de Streamlit:
+                <pre><code>streamlit run app.py</code></pre>
+            </li>
+            <li>¡Listo! La aplicación se abrirá automáticamente en tu navegador predeterminado.</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 - Proyecto de Talento Tech. Todos los derechos reservados.</p>
+        <p>Desarrollado con <i class="fas fa-heart" style="color: #99f2c8;"></i> por el Equipo de Desarrollo.</p>
+    </footer>
+
+</body>
+</html>
